@@ -10,12 +10,12 @@ $(function(){
 
 $(function(){
 $("#text-left").click(function(){
-    $("#chat-listl").toggle(800);
+    $("#chat-listl").toggle();
 })
 })
 
     $(function(){
        $("#text-right").click(function(){
-            $("#chat-listr").toggle(800);
+            $("#chat-listr").toggle();
           })
     })
