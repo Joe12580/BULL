@@ -1,0 +1,232 @@
+#dynamic{
+    width: 100%;
+    flex:1;
+    overflow: scroll;
+    position:relative;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#chat-list{
+    background-color: #EEEEEE;
+    width: 100%;
+    /*height: 100%;*/
+    display: flex;
+    flex-flow: column wrap;
+    /*overflow: scroll;*/
+}
+#chat-listl{
+    background-color: #EEEEEE;
+    width: 100%;
+    /*height: 100%;*/
+    display: flex;
+    flex-flow: column wrap;
+    /*overflow: scroll;*/
+    position: absolute;
+    display: none;
+}
+#chat-listr{
+    position: absolute;
+    display: none;
+    background-color: #EEEEEE;
+    width: 100%;
+    /*height: 100%;*/
+    display: flex;
+    flex-flow: column wrap;
+    /*overflow: scroll;*/
+}
+#chat-item{
+    background-color: #EEEEEE;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+#chat-item:hover{
+   background-color: greenyellow;
+}
+.item-left{
+    width: 70px;
+    height:55px;
+    display: flex;
+    flex-flow: row;
+}
+.touxiang{
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+    background-image: url(../image/small/rest.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.touxiang1{
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    background-image: url(../image/small/搞笑趣味.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.touxiang2{
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+    background-image: url(../image/small/彩色bug.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.touxiang3{
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+    background-image: url(../image/small/搞笑.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.touxiang4{
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+    background-image: url(../image/small/彩色lady.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.item-right{
+    height:50px;
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.item-right1{
+    height:30px;
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.content-top{
+         display: flex;
+          flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.content-bottom{
+
+}
+.vname{
+    color: chocolate;
+}
+.name{
+    color:lightslategray;
+}
+.name2{
+    color:greenyellow;
+}
+.time{
+margin-right:10px;
+    color: gray;
+}
+#community-content{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 180px;
+
+}
+#community1{
+    height: 40px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.community1-1{
+    display: flex;
+    flex-flow: row;
+}
+.community1-1left{
+   background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25px;
+    height:25px;
+}
+.item-left1{
+    width: 60px;
+    height:25px;
+    display: flex;
+    flex-flow: row;
+}
+#chat-list1{
+    background-color: #EEEEEE;
+    width: 100%;
+    /*height: 100%;*/
+    display: flex;
+    flex-flow: column wrap;
+    display:none;
+    /*overflow: scroll;*/
+}
+.picture{
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#myhome-middle{
+display: flex;flex-flow: row;justify-content: space-around;align-items: center;
+}
+#myhome-middle1{
+    display: flex;flex-flow: column;justify-content: space-around;align-items: center;
+}
+@keyframes switch {
+    0%{
+
+        background-image: url(../image/large/1.png);
+    }
+    20%{
+        background-image: url(../image/large/2.png);
+    }
+    40%{
+        background-image: url(../image/large/3.png);
+    }
+
+    60%{
+        background-image: url(../image/large/4.png);
+    }
+
+    80%{
+        background-image: url(../image/large/5.png);
+    }
+    100%{
+        background-image: url(../image/large/3.png);
+    }
+}
+
+#container1{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+#photograph{
+    width: 100%;
+    height: 100px;
+
+    animation: switch 20s linear infinite;
+}
+
+.photo{
+
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}

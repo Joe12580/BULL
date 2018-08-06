@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>牛客界面</title>
+    <link rel="stylesheet" href="../../CSS/container.css">
+    <link rel="stylesheet" href="../../CSS/common.css">
+    <link rel="stylesheet" href="../../CSS/signal.css">
+    <link rel="stylesheet" href="../../CSS/title.css">
+    <link rel="stylesheet" href="../../CSS/dynamic.css">
+    <link rel="stylesheet" href="../../CSS/menu.css">
+</head>
+<body>
+
+<div id="container">
+   <!--signal开始了-->
+    <div id="signal">
+        <div id="signal-left"class="xy-center">下午22.59</div>
+        <!--signal右边开始-->
+        <div id="signal-right"class="xy-center">
+            <div><sub>&bull;&bull;&bull;</sub></div>
+            <div id="imageo" style="background-image: url(../../image/small/wifi.svg)"></div>
+            <div style="margin-right:1px; "><sub>286k/s </sub></div>
+            <!--信号开始-->
+        <div id="signal-sign"class="xy-center">
+            <div id="signal-area" class="xy-lcneter">
+            <div class="signal-ok"></div>
+            <div class="signal-ok"></div>
+            <div class="signal-ok"></div>
+            <div class="signal-bad"></div>
+            </div>
+            <div id="xg">4G<sup>+</sup></div>
+        </div>
+            <!--信号结束-->
+        <div id="signal-battery"class=" xy-center">
+            <div class="battery-body">
+                <div class="battery-core charge"></div>
+            </div>
+            <div class="battery-header"></div>
+        </div>
+        </div>
+        <!--signal右边结束-->
+    </div>
+    <!--signal结束了-->
+
+    <div id="titler"></div>
+    <div id="dynamic">  </div>
+
+    <div id="menu">
+        <div class="menu-learn" class=" xy-rcenter" data-page1="../title/learn.html" data-page="../dynamic/learn.html">
+            <div class="top-p" style="background-image: url(../../image/middle/learn.svg);"></div>
+            <div class="bottom-t">  学习</div>
+        </div>
+        <div class="menu-learn" class=" xy-center" data-page1="../title/community.html" data-page="../dynamic/community.html">
+            <div class="top-p" style="background-image: url(../../image/middle/community.svg)"></div>
+            <div class="bottom-t">  社区</div>
+        </div>
+        <div class="menu-learn" class="xy-center"  data-page1="../title/message.html" data-page="../dynamic/message.html">
+            <div class="ll"> <div class="top-p " style="margin-left:18px;background-image: url(../../image/middle/message.svg)"></div><div class="radious"></div></div>
+            <div class="bottom-t" >  信息 </div>
+        </div>
+        <div class="menu-learn" class=" xy-center" data-page1="../title/learn.html" data-page="../dynamic/myhome.html">
+            <div class="top-p" style="background-image: url(../../image/middle/myhome.svg)"></div>
+            <div class="bottom-t">我的牛客</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="../../js/jquery/jquery.js"></script>
+<script src="../../js/router.js"></script>
+<script src="../../js/appear.js"></script>
+<script src="../../js/pencil.js"></script>
+<script src="../../js/charge.js"></script>

@@ -1,0 +1,226 @@
+#title {
+    width: 100%;
+    height: 100px;
+    /*background-color: gray;*/
+    display: flex;
+    flex-flow: column;
+
+}
+#titleo {
+    width: 100%;
+    height: 50px;
+    /*background-color: gray;*/
+    display: flex;
+    flex-flow: column;
+
+}
+#titler {
+    width: 100%;
+    height: 50px;
+    /*background-color: gray;*/
+    display: flex;
+    flex-flow: column;
+
+}
+#title1 {
+    width: 100%;
+justify-content: flex-end;
+    /*background-color: gray;*/
+    display: flex;
+    flex-flow: row;
+}
+#title11 {
+    width: 100%;
+    justify-content: flex-start;
+    /*background-color: gray;*/
+    display: flex;
+    flex-flow: row;
+}
+#title2{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    flex-flow:row ;
+   /*justify-content: space-between;*/
+    align-items: center;
+}
+#title22{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    flex-flow:row ;
+    justify-content: space-between;
+    align-items: center;
+}
+#title2-2{
+    width: 100%;
+    height: 50px;
+   font-size: small;
+    display: flex;
+    flex-flow:row ;
+    color: gray;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+#title2-3{
+    width: 100%;
+    height: 150px;
+    font-size: small;
+    display: flex;
+    flex-flow:row ;
+    color: gray;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+#title3{
+    width: 100%;
+    height:150px;
+    background-color: dimgray;
+    display: flex;
+    flex-flow:column ;
+}
+
+title3-3{
+    display: flex;
+    flex-flow:row nowrap;
+
+
+}
+.l{
+    flex: 1;
+}
+.r{
+    flex: 1;
+}
+#title-top{
+    height: 50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background:dimgray;
+
+}
+
+#text{
+    margin:15px;
+    color: white;
+}
+.image{
+    background-image:url(../image/small/pencil.svg);
+    width: 20px;
+    height: 20px;
+    margin:15px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover ;
+}
+#imager{
+
+    width: 20px;
+    height: 20px;
+    margin:15px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover ;
+}
+#imageo{
+
+    width: 20px;
+    height: 20px;
+
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover ;
+}
+#image1{
+    background-image:url(../image/small/设置.svg);
+    width: 20px;
+    height: 20px;
+    margin:15px;
+
+    background-repeat:no-repeat;
+    background-size:cover ;
+}
+#title-bottom{
+    height: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 2px black;
+}
+#title-bottom1{
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items:flex-end;
+    box-shadow: 0px 2px black;
+}
+#text-left{
+    width: 50%;
+    height: 50px;
+    color:green;
+    flex:1;
+position: relative;
+
+}
+
+#text-right{ height: 50px;
+    position: relative;
+    width: 50%;
+    flex:1;
+}
+
+#text-right:active{
+    color: green;
+    border: 2px dotted green;
+    width: 50%;
+    flex:1;
+}
+.title-l{
+    margin-left: 15px;
+    color:white;
+}
+#input{
+
+}
+.image1{
+    width: 100%;
+    height: 100px;
+
+}
+.daka{
+    display: flex;
+    flex-flow: column;
+    font-size:xx-small;
+    margin: 1px;
+}
+.daka:active{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    font-size:xx-small;
+    margin: 1px;
+}
+.six{
+    display: flex;
+    flex-flow:column ;
+    height: 160px;
+}
+.three{
+    display: flex;
+    flex-flow:row;
+
+}
+.two{
+    border: 1px solid gray;
+    flex: 1;
+    display: flex;
+    flex-flow:column ;
+    justify-content: center;
+    align-items: center;
+}
